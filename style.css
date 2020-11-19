@@ -1,4 +1,30 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout */
+
+/* Forecast box styling */
 .box {
-            display: flex;
-            justify-content: space-between;
-          }
+    display: flex;
+    justify-content: space-between;
+    border: 3px, black;
+    border-radius: 10px;
+}
+/* search button styling */
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+}
+/* Search box styling */
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+/* the goal is to have a five day forecast in columns */
