@@ -12,30 +12,51 @@
 </head>
 
 <body>
-<header>Weather Dashboard</header>
+
+    <div class="row header-row">
+        <div class="col-md-2"></div>
+        <header class="col-md-10">
+            <h1 class="display-5">Weather Dashboard</h1>
+        </header>
+    </div>
+
   <!-- Search function added -->
-  <label for="site-search">What's the weather in:</label>
-  <input type="search" id="site-search" name="q" aria-label="Search through site content">
+    <div class="row main-row">
+        <div class="col-md-4">
+        <label for="searchCity">What's the weather in:</label>
+        <input type="text" id="searchCity" aria-label="cityName">
 
   <!-- Search button added -->
-  <button class="search styled" type="button">Search</button>
+        <button class="btn btn-primary" type="button" id="searchBtn">Search</button>
+        </div>
+    </div>
+  <!-- Current temp in queried city -->
+
+
 
   <!-- Section for five day forecast -->
-  <div class="columns">
-    <div class="column-is-one-fifth">
+  <div class="container">
+    <div class="row">
+        <div class="col-sm">
       First column
     </div>
-    <div class="column-is-one-fifth">
+    <div class="row">
+        <div class="col-sm">
       Second column
     </div>
-    <div class="column">
+    <div class="row">
+        <div class="col-sm">
       Third column
     </div>
-    <div class="column">
+    <div class="row">
+        <div class="col-sm">
       Fourth column
     </div>
-    <div class="column-is-one-fifth">
-    Fifth column
+    <div class="row">
+        <div class="col-sm">
+      Fifth column
+    </div>
+
     </div>
   </div>
 
